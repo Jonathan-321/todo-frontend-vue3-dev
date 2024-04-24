@@ -1,6 +1,6 @@
 # Student List Frontend with Vue 3
 
-This application allows users to create and maintain a list of students. Please visit https://github.com/OC-ComputerScience/student-backend for the backend repository.
+This application allows users to create and maintain a list of things to do. Please visit https://github.com/OC-ComputerScience/todo-backend for the backend repository.
 
 ### Table of Contents
 [Project Setup for your Local Machine](#project-setup-for-your-local-machine)</br>
@@ -8,7 +8,7 @@ This application allows users to create and maintain a list of students. Please 
 
 ## Project Setup for your Local Machine
 
-1. Clone the project into your **XAMPP/xamppfiles/htdocs/studentapp** directory.
+1. Clone the project into your **XAMPP/xamppfiles/htdocs/todoapp** directory.
 ```
 git clone https://github.com/OC-ComputerScience/student-frontend-vue3.git
 ```
@@ -17,7 +17,7 @@ git clone https://github.com/OC-ComputerScience/student-frontend-vue3.git
     - We recommend using XAMPP to serve this project.
     - In XAMPP, make sure that **Apache** and **MySQL** are running.
 
-3. Make sure you have finished installing the [Student Backend](https://github.com/OC-ComputerScience/student-backend) on your local machine.
+3. Make sure you have finished installing the [todo Backend](https://github.com/OC-ComputerScience/todo-backend) on your local machine.
 
 4. Compile and run the project locally.
 ```
@@ -38,11 +38,11 @@ npm run build
 
 3. Make a directory for this project called **student-frontend-vue3**.
 
-4. Copy **XAMPP/htdocs/studentapp/student-frontend-vue3/dist** to **var/www/html/student-frontend-vue3**.
+4. Copy **XAMPP/htdocs/todoapp/todo-frontend-vue3/dist** to **var/www/html/todo-frontend-vue3**.
 
-5. Make sure that you have finished installing the [Student Backend](https://github.com/OC-ComputerScience/student-backend) on your AWS instance.
+5. Make sure that you have finished installing the [todo Backend](https://github.com/OC-ComputerScience/todo-backend) on your AWS instance.
 
 6. Test the project.
-    - http://**your instance**/student-frontend-vue3/
+    - http://**your instance**/todo-frontend-vue3/
     - You should see the project running with data on your screen.
 
